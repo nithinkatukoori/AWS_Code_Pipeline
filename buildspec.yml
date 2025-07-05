@@ -12,7 +12,8 @@ phases:
 
 artifacts:
   files:
-    - '**/*'             # Include all files and subdirectories
+    #- '**/*'             # Include all files and subdirectories
+    - 'index.html'
   base-directory: '.'    # Specify that the current directory is the source of files
   discard-paths: yes     # Crucial: This tells CodeBuild to discard the leading '.' path from files in the artifact.
   # The artifact will be created as a zip by CodeBuild automatically when using 'files' and 'base-directory'.
