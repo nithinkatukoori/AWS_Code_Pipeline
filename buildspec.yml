@@ -6,7 +6,7 @@ phases:
       - echo "Starting build..."
       - echo "No build steps required for static HTML, directly zipping files."
   post_build:
-    commands:
+    commands: 
       - echo "Build complete. Preparing artifacts for deployment."
 
 artifacts:
